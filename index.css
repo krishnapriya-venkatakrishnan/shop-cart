@@ -1,0 +1,75 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: "Happy Monkey", system-ui;
+    background-color: #F0F9FF;
+    color: #E11D48;
+    user-select: none;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: 2px solid #FB7185;
+}
+
+input {
+    color: #432000;
+    background-color: #DCE1EB;
+    border: 0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    margin: 10px 0;
+}
+
+button {
+    color: #FDFDFD;
+    background-color: #FB7185;
+    border: 2px solid #F43F5E;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Happy Monkey", system-ui;
+    font-weight: bold;
+    text-shadow: 0px 0px 1px #F43F5E;
+}
+
+button:hover {
+    background-color: #F43F5E;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+ul li {
+    font-size: 20px;
+    background-color: #E0F2FE;
+    padding: 15px;
+    border-radius: 8px;
+    flex-grow: 1;
+    text-align: center;
+    box-shadow: 0px 1px 4px rgba(251, 113, 133, 0.5)
+}
+
+ul li:hover {
+    background-color: #BAE6FD;
+    cursor: pointer;
+}
